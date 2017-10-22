@@ -1,6 +1,7 @@
 defmodule GithubApi do
   @moduledoc """
-  Documentation for GithubApi.
+  A package that enables you to retrieve information from Github,
+  using their API.
   """
 
   @doc """
