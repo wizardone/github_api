@@ -21,6 +21,7 @@ use Mix.Config
 #     config :logger, level: :info
 #
   config :github_api, base_url: "https://api.github.com"
+  config :github_api, user_agent: "wizardone"
   config :github_api, client_id: ""
   config :github_api, client_secret: ""
   config :github_api, username: ""
