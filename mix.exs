@@ -29,7 +29,8 @@ defmodule GithubApi.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:httpotion, "~> 3.0.2"}
+      {:httpoison, "~> 0.13"},
+      {:exvcr, "~> 0.8", only: :test}
     ]
   end
 end

@@ -1,0 +1,44 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "User-Agent": "wizardone"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.github.com/users/wizardone"
+    },
+    "response": {
+      "body": "{\"login\":\"wizardone\",\"id\":2437002,\"avatar_url\":\"https://avatars0.githubusercontent.com/u/2437002?v=4\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/wizardone\",\"html_url\":\"https://github.com/wizardone\",\"followers_url\":\"https://api.github.com/users/wizardone/followers\",\"following_url\":\"https://api.github.com/users/wizardone/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/wizardone/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/wizardone/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/wizardone/subscriptions\",\"organizations_url\":\"https://api.github.com/users/wizardone/orgs\",\"repos_url\":\"https://api.github.com/users/wizardone/repos\",\"events_url\":\"https://api.github.com/users/wizardone/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/wizardone/received_events\",\"type\":\"User\",\"site_admin\":false,\"name\":\"Stefan Slaveykov\",\"company\":null,\"blog\":\"\",\"location\":\"Sofia, Bulgaria\",\"email\":null,\"hireable\":true,\"bio\":\"Technology agnostic software developer\",\"public_repos\":46,\"public_gists\":0,\"followers\":16,\"following\":36,\"created_at\":\"2012-09-27T12:19:31Z\",\"updated_at\":\"2017-10-01T13:10:29Z\"}",
+      "headers": {
+        "Server": "GitHub.com",
+        "Date": "Tue, 24 Oct 2017 13:42:37 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "1178",
+        "Status": "200 OK",
+        "X-RateLimit-Limit": "60",
+        "X-RateLimit-Remaining": "54",
+        "X-RateLimit-Reset": "1508852740",
+        "Cache-Control": "public, max-age=60, s-maxage=60",
+        "Vary": "Accept",
+        "ETag": "\"9d9521d5182a22ae81fe2d6cb5a36daa\"",
+        "Last-Modified": "Sun, 01 Oct 2017 13:10:29 GMT",
+        "X-GitHub-Media-Type": "github.v3; format=json",
+        "Access-Control-Expose-Headers": "ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+        "Access-Control-Allow-Origin": "*",
+        "Expect-CT": "max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"",
+        "Content-Security-Policy": "default-src 'none'",
+        "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "deny",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Runtime-rack": "0.027537",
+        "X-GitHub-Request-Id": "CD93:33EF:2882E02:52712BA:59EF434D"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

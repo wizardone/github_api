@@ -18,25 +18,25 @@ defmodule GithubApi do
   end
 
   def fetch_user(user) do
-    HTTPotion.get(
+    HTTPoison.get(
       Application.get_env(:github_api, :base_url) <>
         "/users/" <>
           user,
-          headers: user_agent_header()
+          user_agent_header()
     )
   end
 
   def fetch_repositories(user) do
-    HTTPotion.get(
+    HTTPoison.get(
       Application.get_env(:github_api, :base_url) <>
         "/users/" <>
         user <>
         "/repos",
-        headers: user_agent_header()
+        user_agent_header()
     )
   end
 
   defp user_agent_header do
-    ["User-Agent": Application.get_env(:github_api, :user_agent)]
+    [{"User-Agent", Application.get_env(:github_api, :user_agent)}]
   end
 end
