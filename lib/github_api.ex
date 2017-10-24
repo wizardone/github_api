@@ -18,7 +18,7 @@ defmodule GithubApi do
   end
 
   def fetch_user(user) do
-    HTTPoison.get(
+    HTTPoison.get!(
       Application.get_env(:github_api, :base_url) <>
         "/users/" <>
           user,
@@ -27,7 +27,7 @@ defmodule GithubApi do
   end
 
   def fetch_repositories(user) do
-    HTTPoison.get(
+    HTTPoison.get!(
       Application.get_env(:github_api, :base_url) <>
         "/users/" <>
         user <>

@@ -25,13 +25,14 @@ defmodule GithubApiTest do
 
   test "fetch user" do
     use_cassette "fetch_user" do
-      assert elem(GithubApi.fetch_user("wizardone"), 0) == :ok
+      assert GithubApi.fetch_user("wizardone") == GithubApiTestMock.fetch_user_response
     end
   end
 
   test "fetch repositories" do
     use_cassette "fetch_repositories" do
-      assert elem(GithubApi.fetch_repositories("octocat"), 0) == :ok
+      # How do you test this fucker????
+      assert GithubApi.fetch_repositories("icotanchev") == 200
     end
   end
 end
